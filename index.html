@@ -4,36 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Encrypt JS</title>
 </head>
 <body>
-    <h1>Encriptador</h1>
     <main>
-        <div>
-            <input type="text" name="" id="">
-            <div>
-                <button type="submit">Encriptar</button>
-                <button type="submit">Descencriptar</button>
+        <h1>Encriptdador</h1>
+        <div class="container">
+            <div class="input">
+                <label for="">Ingresa el mensaje a encriptar o decencriptar</label><br>
+                <input type="text" name="" placeholder="Escribe aquí" id="">
+                <div>
+                    <button class="btn-encriptar" type="submit">Encriptar</button>
+                    <button class="btn-decencriptar" type="submit">Descencriptar</button>
+                </div>
             </div>
-        </div>
-    
-        <div>
-            <input type="text" name="" id="">
-            <button id="btn-copy">Copiar</button>
+        
+            <div class="output">
+                <label for="">Resultado</label><br>
+                <input type="text" name="" id="">
+                <div>
+                    <button class="btn-copiar" id="btn-copy">Copiar</button>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <div>
-            <span>jesusrodrigo881@gmail.com</span>
-            <span>México, CDMX</span>
-            <span>Web developer</span>
-        </div>
-        <div>
-            Social networks:
-            <span>icon</span>
-            <span>icon</span>
-            <span>icon</span>
-            <span>icon</span>
+        <hr>
+        <div class="container-footer">
+            <div>
+                <p>jesusrodrigo881@gmail.com</p>
+                <p>México, CDMX</p>
+                <p>Web developer</p>
+            </div>
+            <div>
+                Social networks:
+                <div class="icons-container">
+                    <a href=""><img src="./SVG/github.svg" alt="icon github"></a>
+                    <a href=""><img src="./SVG/linkedin.svg" alt="icon linkedin"></a>
+                    <a href=""><img src="./SVG/instagram.svg" alt="icon instagram"></a>
+                </div>
+            </div>
         </div>
     </footer>
 

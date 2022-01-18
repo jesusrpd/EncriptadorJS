@@ -1,0 +1,103 @@
+:root{
+    --black-backgorund: #1D1A1F;
+    --redColor: #DB313B;
+    --textWhite: white;
+    --textDark: #0000;
+    --blueColor: #3189DB;
+    --greenColor: #31DB75;
+    --purpleColor: #7C31DB;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background: var(--black-backgorund);
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+}
+
+h1{
+    color: var(--textWhite);
+    font-size: 3em;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50rem;
+}
+
+.input, .output{
+    padding: 1rem;
+    background: var(--textWhite);
+    border-radius: .5rem;
+}
+
+input{
+    padding: 10px;
+    border-radius: .2rem;
+    width: 100%;
+    margin: 1rem 0;
+    border: .1rem solid var(--black-backgorund);
+    outline: none;
+    width: 40rem;
+    height: 15rem;
+}
+
+button{
+    padding: .2rem;
+    border-radius: .2rem;
+    border: none;
+    color: var(--textWhite);
+    font-weight: bold;
+}
+
+.btn-encriptar{
+    background: var(--blueColor);
+    margin-right: .5rem;
+}
+
+.btn-decencriptar{
+    background: var(--greenColor);
+}
+
+.btn-copiar{
+    background: var(--purpleColor);
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1.7em;
+}
+
+footer{
+    color: var(--textWhite);
+    text-align: center;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p{
+    margin-bottom: .4em;
+}
+
+.icons-container a{
+    margin: .5em;
+}
