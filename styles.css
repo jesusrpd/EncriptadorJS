@@ -37,7 +37,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    height: 50rem;
+    height: 30rem;
 }
 
 .input, .output{
@@ -55,6 +55,20 @@ input, #output{
     outline: none;
     width: 40rem;
     height: 15rem;
+    text-align: start;
+}
+
+.nota{
+    width: 200px;
+    margin: 0 auto;
+    background: var(--redColor);
+    border-radius: .5em;
+    padding: .5em;
+    color: var(--textWhite);
+}
+
+ul{
+    list-style-type: none;
 }
 
 button{
