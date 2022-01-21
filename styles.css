@@ -117,3 +117,34 @@ p{
 .icons-container a{
     margin: .5em;
 }
+
+.modal{
+    position: absolute;
+    width: fit-content;
+    top: 64%;
+    left: 58%;
+    padding: .5em;
+    border-radius: .5em;
+    background: var(--blueColor);
+    color: var(--textWhite);
+    opacity: 0;
+}
+
+.animacion{
+    animation: aparecer .5s ease-in-out forwards;
+}
+
+@keyframes aparecer {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.error{
+    color: var(--redColor);
+    font-weight: bold;
+    display: none;
+}
+
+.show{
+    display: block;
+}

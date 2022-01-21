@@ -9,6 +9,9 @@
 </head>
 <body>
     <main>
+        <div class="modal">
+            <p>Copiado en el portapeleles</p>
+        </div>
         <h1>Encriptdador</h1>
         <div class="nota">
             <h2>Nota:</h2>
@@ -21,6 +24,7 @@
             <form class="input">
                 <label for="">Ingresa el mensaje a encriptar o decencriptar</label><br>
                 <input type="text" name="input" placeholder="Escribe aquí" id="input">
+                <p class="error">No se aceptan mayusculas o acentos en el mensaje</p>
                 <div>
                     <button class="btn-encriptar" type="submit">Encriptar</button>
                     <button class="btn-decencriptar" type="submit">Descencriptar</button>
@@ -29,7 +33,8 @@
         
             <div class="output">
                 <label for="">Resultado</label><br>
-                <p type="text" name="output" id="output"></p>
+                <input type="text" name="output" id="output"></input>
+                <p class="error">No hay un mensaje que se pueda copiar</p>
                 <div>
                     <button class="btn-copiar" id="btn-copy">Copiar</button>
                 </div>
@@ -47,9 +52,9 @@
             <div>
                 Social networks:
                 <div class="icons-container">
-                    <a href=""><img src="./SVG/github.svg" alt="icon github"></a>
-                    <a href=""><img src="./SVG/linkedin.svg" alt="icon linkedin"></a>
-                    <a href=""><img src="./SVG/instagram.svg" alt="icon instagram"></a>
+                    <a href="https://github.com/jesusrpd" target="_blank"><img src="./SVG/github.svg" alt="icon github"></a>
+                    <a href="https://www.linkedin.com/in/jesus-rodrigo" target="_blank"><img src="./SVG/linkedin.svg" alt="icon linkedin"></a>
+                    <a href="https://www.instagram.com/jesusjrpd" target="_blank"><img src="./SVG/instagram.svg" alt="icon instagram"></a>
                 </div>
             </div>
         </div>
